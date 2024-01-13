@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+    body {background-color:black;}
+</style>
+    <body class>
+        <div class="w3-top w3-container">
+     
+<div class="w3-sidebar w3-bar-block w3-card w3-black w3-animate-left" style="display:none;" id="mySidebar"> 
+    <button class="w3-button w3-hover-blue w3-bar-item w3-large" style="background-color: darkblue;"
+    onclick="w3_close()">Inchide</button>
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right w3-black" href="javascript:void(0)" onclick="myFunction()"></a>
+    <a href="#acasa" class="w3-bar-item w3-button w3-hover-blue w3-black">Acasa</a>
+    <a href="#stiri" class="w3-bar-item w3-button w3-hover-blue w3-black">Stiri</a>
+    
+    
+    <div class="w3-dropdown-hover">
+        <button class="w3-button w3-black w3-hover-blue" >Despre noi<i class= "fa fa-caret-down"></i></button>
+    <div class="w3-bar-block w3-card-4 w3-dropdown-content w3-hover-blue w3-blue">
+        <a href="#Instagram" class="w3-bar-item w3-button w3-hover-blue ">Instragram<i class="fa fa-instagram"></i></a>
+        <a href="#Facebook" class="w3-bar-item w3-button w3-hover-blue">Facebook<i class=" fa fa-facebook"></i></a>
+    <a href="#E-Mail" class="w3-bar-item w3-button w3-hover-blue">E-Mail<i class=" fa fa-facebook"></i></a>
+    </div>
+    </div>
+    <a href="#contact" class="w3-bar-item w3-button w3-black w3-hover-blue">Contact</a>
+    
+    </div>
+    </div>
+    <div id="main">
+        <div style="background-color: black;">
+            <button id="openNav" class= "w3-button w3-xlarge w3-hover-blue w3-text-white" style="background-color: darkblue;"  onclick="w3_open()">Meniu</button>
+            <div class="w3-container w3-text-white">
+                <h1 class="w3-center" style="font-size:10vw;">Euro 2024</h1>
+                </div>
+                </div>
+                <div>
+                <img src="https://www.dfb.de/fileadmin/_processed_/202306/csm_286030-Option-1---16x9_0f15cc4e7c.jpg" alt="euro24" class="mySlides" style=" width:100%">
+                <img src="https://editorial.uefa.com/resources/0286-19204ea8acaf-b51552ee307f-1000/euro_tickets2.jpeg" class="mySlides" alt="euro24" style=" width:100%">
+                <img src="https://www.bettingodds.com/media/images/admin/betting-odds-uk/articlev2.jpg" alt="euro24" class="mySlides" style=" width:100%">
+                
+
+    </div>
+    
+    <div class="w3-bar block" id="acasa">
+   
+    <div class=" w3-container w3-content w3-left" id="acasa" style="width:200 px;height:200 px;background-color:black;display: table; clear: both;float:left; margin-top: 40px; margin-bottom: 40 px;">
+        <div style="background-color:royalblue;">
+             
+            <div class="w3-row-padding ">
+                <h1 class="w3-center">Calificari Euro24</h1>
+        <div class="w3-left">
+            <img src="https://editorial.uefa.com/resources/027a-164dfef9f2c0-548464c557c3-1000/pengu_20221009125357.jpeg" style="width:70%;cursor:pointer;height:70%" onclick="onClick(this)" class="w3-hover-opacity w3-center">
+            <h3 class="w3-right">*Germania nu participa la runda de calificari, deoarece este tara gazda a Campionatului European,prin urmare este deja calificata.<br><br><br></h3>
+            <h2>Doar primele 2 echipe clasate in fiecare grupa, primesc accesul direct in faza finala a Campionatului European. Cele 4 echipe cu cel mai mare punctaj in ranking,dar care nu au reusit sa se califice prin intermediul grupelor au posibilitatea de a juca un play-off,iar echipa castigatoare se va califica la Euro.  </h2>
+        </div>
+        </div>
+        
+        </div>
+        <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+            <span class="w3-button w3-blue  w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+            <div class="w3-modal-content w3-animate-zoom">
+              <img id="img01" style="width:100%">
+            </div>
+        
+        </div>
+</div>
+        
+
+        <div class="w3-right w3-container w3-content w3-card-4" id="acasa" style="width: 35%; background-color:royalblue;margin-top: 40px; margin-bottom: 20px" onclick="openLink(event,'unu')">
+        <button class="w3-button w3-bar-item tablink w3-hover-blue" style="background-color: royalblue;" onclick="document.getElementById('modal1').style.display='block'">
+           <img src="https://asset-a.grid.id/crop/0x0:0x0/700x0/photo/2021/06/30/toppppjpg-20210630113054.jpg" style="width:35%;" ><br>Clasament Golgheteri
+            
+        </button>
+        <div class="w3-container city w3-animate-right w3-modal w3-bar-item-left" id="unu" style="display: none; margin-right: 20px; margin-left:20 px;"; onclick="this.style.display='none'"> 
+            
+            
+        <div id="modal1" class="w3-modal" onclick="this.style.display='none'">
+            <span class="w3-button w3-blue  w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+            <div class="w3-modal-content w3-animate-zoom">
+              <img src="https://asset-a.grid.id/crop/0x0:0x0/700x0/photo/2021/06/30/toppppjpg-20210630113054.jpg" style="width:100%;">
+              
+            </div>
+       </div>
+       </div>
+       </div>
+       
+       <div class="w3-right w3-container w3-card-4" id="acasa" style="width: 35%; background-color: royalblue; margin-top: 40px;" onclick="openLink(event,'doi')">
+      <button class="w3-button w3-bar-item tablink w3-hover-blue" style="background-color: royalblue; " onclick="document.getElementById('modal2').style.display='block'">
+      <img src="https://i.ytimg.com/vi/wzI-2PV62rM/maxresdefault.jpg" style="width: 40%;height: 45%; "><br>Clasament Grupe Calificari Euro24</button>
+      <div class="w3-container city w3-animate-left w3-left w3-modal w3-bar-item" id="doi" style="display: none;margin-right: 80px;" onclick="this.style.display='none'">
+      <div id="modal2" class="w3-modal" onclick="this.style.display='none'">
+        <span class="w3-button w3-blue w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <div class="w3-modal-content w3-animate-zoom">
+          <img src="https://i.ytimg.com/vi/wzI-2PV62rM/maxresdefault.jpg" style="width: 100%;">
+        </div>
+      </div>
+      </div>
+      </div>
+
+      <div class="w3-right w3-container w3-card-4" id="acasa" style="width: 35%; background-color: royalblue; margin-top: 60px;" onclick="openLink(event,'trei')">
+      <button class="w3-button w3-bar-item tablink w3-hover-blue" style="background-color: royalblue;" onclick="document.getElementById('modal3').style.display='block'">
+        <img src="https://i.ytimg.com/vi/_GbXEK2-7y4/maxresdefault.jpg" style="width:35%"><br>Meciuri Calificari Euro 2024</button>
+<div class="w3-container city w3-left w3-animate-left w3-modal w3-bar-item" id="trei" style="float:left;display:none;margin-right: 20px;" onclick="this.style.display='none'">
+  <div id="modal3" class="w3-modal" onclick="this.style.display='none'">
+  <span class="w3-button w3-blue w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom">
+    <img src="https://i.ytimg.com/vi/_GbXEK2-7y4/maxresdefault.jpg" style="width: 100%;">
+
+
+  </div>
+
+</div>
+</div>
+      </div>
+        <div class="w3-right w3-container w3-card-4" id="acasa" style="width:35%; background-color: royalblue; margin-top: 60px;" onclick="openLink(event,'patru')">
+        <button class="w3-button w3-bar-item tablink w3-hover-blue" style="background-color: royalblue" onclick="document.getElementById('modal4').style.display='block'">
+<img src="https://www.pontul-zilei.com/wp-content/uploads/2023/07/27euro-en.jpg" style="width:35%;"><br>Stadioanele care vor gazdui campionatul European.
+        </button>
+        <div class="w3-container city w3-left w3-animate-left w3-modal" id="patru" style="float:left;display:none;margin-top:20px;" onclick="this.style.display='none';">
+   <div class="w3-modal" id="modal4" onclick="this.style.display='none'">
+    <span class="w3-button w3-blue w3-hover-red w3-xlaarge w3-display-topright">&times;</span>
+    <div class="w3-modal-content w3-animate-zoom">
+      <img src="https://www.pontul-zilei.com/wp-content/uploads/2023/07/27euro-en.jpg" style="width: 100%;">
+    </div>
+
+   </div>     
+        </div>
+        </div>
+        
+        </div>
+        <div class="w3-container w3-bar-block w3-content  w3-center w3-card w3-bar-item
+          w3-text-black " style="background-color:royalblue; margin-top: 20px;" id="contact">
+            <h1 class="w3-center">Contact</h1>
+            <div class="w3-section w3-row">
+                <div class="w3-col" style="width:50px"><i class="xxlarge fa fa-user"></i></div>
+                <div class="w3-rest">
+                    <input class="w3-input w3-border" name="first" type="text" placeholder="Nume">
+                </div>
+         </div>
+         
+        
+         <div class="w3-section w3-row">
+            <div class="w3-col" style="width:50px"><i class="xxlarge fa fa-user"></i></div>
+            <div class="w3-rest">
+                <input class="w3-input w3-border" name="last" type="text" placeholder="Prenume">
+         </div>
+        </div>
+        
+         <div class="w3-section w3-row">
+            <div class="w3-col" style="width:50px"><i class="xxlarge fa fa-envelope"></i></div>
+         <div class="w3-rest">
+        <input class="w3-input w3-border" type="text"name="e-mail" placeholder="E-Mail"> 
+        </div> 
+         </div>
+        
+         <div class="w3-section w3-row">
+            <div class="w3-col" style="width: 50px" ><i class="xxlarge fa fa-phone"></i></div>
+            <div class="w3-rest">
+                <input class="w3-input w3-border" type="text" name="phone" placeholder="Telefon">
+            </div>
+         </div>
+            <div class="w3-section w3-row">
+            <div class="w3-col" style="width:50px "><i class="xxlarge fa fa-pencil"></i></div>
+            <div class="w3-rest">
+                <input class="w3-border w3-input"  name="message" type="text" placeholder="Scrie ceva">
+            </div>
+            </div>
+            <button class="w3-btn w3-black"> Trimite</button>
+            </div>
+         
+   
+    
+    <script>
+        function w3_open() {
+          document.getElementById("main").style.marginLeft = "25%";
+          document.getElementById("mySidebar").style.width = "25%";
+          document.getElementById("mySidebar").style.display = "block";
+          document.getElementById("openNav").style.display = 'none';
+        }
+        function w3_close() {
+          document.getElementById("main").style.marginLeft = "0%";
+          document.getElementById("mySidebar").style.display = "none";
+          document.getElementById("openNav").style.display = "inline-block";
+        }
+        var myIndex = 0;
+carousel();
+        function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
+function openLink(evt,animName){
+var x,i,tablink;
+x=document.getElementsByClassName("city");
+for(i=0;i<x. length;i++){
+x[i].style.display="none";}
+  
+          tablinks = document.getElementsByClassName("tablink");
+          for (i = 0; i < x.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+          }
+          document.getElementById(animName).style.display = "block";
+          evt.currentTarget.className += " w3-black";
+        }
+
+
+        </script>
+
+
+      </body>
+      </html>
